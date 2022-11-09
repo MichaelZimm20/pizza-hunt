@@ -1,4 +1,4 @@
-# pizza-hunt
+# Pizza Hunt 
 
 ## Description
  Pizza Hunt, a social media recipe app, where users can post their creative spins on a pizza, add comments to recipes, and create threads within comments. This application utilizes node.js, mongoose, MongoDB, heroku, MongoDB Atlas. 
