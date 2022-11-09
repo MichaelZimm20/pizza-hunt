@@ -39,10 +39,9 @@
 
 
  ## Important Links 
-* GitHub Link: https://github.com/MichaelZimm20/team-profile-generator
+* GitHub Link: https://github.com/MichaelZimm20/pizza-hunt
 
-* Application Demonstration Link: https://www.loom.com/share/79500454cfcb4875a23b4673567f1277
-
+* Heroku deployable Link: https://pizza-hunt-max-pro.herokuapp.com/
 
 ## Questions 
   If you have any questions or concerns, contact:
