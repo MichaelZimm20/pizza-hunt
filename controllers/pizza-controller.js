@@ -54,7 +54,7 @@ const pizzaController = {
   // updating a  pizza by id when we make a request 
   // PUT, updating a pizza by id, PUT /api/pizzas/:id
   updatePizza({ params, body }, res) {
-    Pizza.findOneAndUpdate({ _id: params.id }, body, { new: true })
+    Pizza.findOneAndUpdate({ _id: params.id }, body, { new: true, runValidators: true })
     .then(dbPizzaData => {
         if (!dbPizzaData) {
             res.status(404).json({ message: 'No pizza gound with this id!'});
